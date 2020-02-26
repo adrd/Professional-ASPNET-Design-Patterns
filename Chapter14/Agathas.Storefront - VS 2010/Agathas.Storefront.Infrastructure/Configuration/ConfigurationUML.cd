@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Infrastructure.Configuration.WebConfigApplicationSettings">
+    <Position X="0.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAIAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\WebConfigApplicationSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Configuration.ApplicationSettingsFactory">
+    <Position X="4.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\ApplicationSettingsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agathas.Storefront.Infrastructure.Configuration.IApplicationSettings">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAIAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\IApplicationSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>
