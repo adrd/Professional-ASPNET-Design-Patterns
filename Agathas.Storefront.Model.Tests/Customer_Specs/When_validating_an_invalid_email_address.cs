@@ -22,7 +22,7 @@ namespace Agathas.Storefront.Model.Tests.Customer_Specs
         }
 
         [Test]
-        public void Then_the_email_address_will_not_satisfiy_the_email_validation_specification()
+        public void Then_the_email_address_will_not_satisfy_the_email_validation_specification()
         {
             Assert.IsFalse(_emailValidationSpecification.IsSatisfiedBy(_invalidEmailAddress));
         }              

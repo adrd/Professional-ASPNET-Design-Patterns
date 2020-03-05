@@ -23,8 +23,8 @@
         <div>                   
                 <p>
                     <label for="email">Email:</label><br />
-                    <%= Html.TextBox("EmailAddress") %>
-                    <%= Html.ValidationMessage("EmailAddress") %>
+                    <%= Html.TextBox("email") %>
+                    <%= Html.ValidationMessage("email") %>
                 </p>
                 <p>
                     <label for="password">Password:</label><br />
@@ -38,13 +38,13 @@
                 </p>
                 <p>
                     <label for="email">First Name:</label><br />
-                    <%= Html.TextBox("NameFirstName")%>
-                    <%= Html.ValidationMessage("NameFirstName")%>
+                    <%= Html.TextBox("FirstName")%>
+                    <%= Html.ValidationMessage("FirstName")%>
                 </p>
                 <p>
                     <label for="email">Second Name:</label><br />
-                    <%= Html.TextBox("NameSecondName")%>
-                    <%= Html.ValidationMessage("NameSecondName")%>
+                    <%= Html.TextBox("SecondName")%>
+                    <%= Html.ValidationMessage("SecondName")%>
                 </p>
                 <p>
                     <input type="submit" value="Register" />

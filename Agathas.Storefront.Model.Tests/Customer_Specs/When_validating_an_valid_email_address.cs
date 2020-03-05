@@ -18,7 +18,7 @@ namespace Agathas.Storefront.Model.Tests.Customer_Specs
         }
         
         [Test]
-        public void A_Valid_Email_Address_Will_Satisfiy_The_Email_Validation_Specification()
+        public void A_Valid_Email_Address_Will_Satisfy_The_Email_Validation_Specification()
         {
             Assert.IsTrue(_emailValidationSpecification.IsSatisfiedBy(_validEmailAddress));
         }

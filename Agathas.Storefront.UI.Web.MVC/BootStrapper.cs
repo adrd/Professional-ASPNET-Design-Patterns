@@ -65,8 +65,8 @@ namespace Agathas.Storefront.UI.Web.MVC
                     .WithName("RealProductCatalogueService");
 
                 // Uncomment the line below to use the product service caching layer
-                //ForRequestedType<IProductCatalogueService>().TheDefault.Is.OfConcreteType<CachedProductCatalogueService>()
-                //    .CtorDependency<IProductCatalogueService>().Is(x => x.TheInstanceNamed("RealProductCatalogueService"));
+                ForRequestedType<IProductCatalogueService>().TheDefault.Is.OfConcreteType<CachedProductCatalogueService>()
+                    .CtorDependency<IProductCatalogueService>().Is(x => x.TheInstanceNamed("RealProductCatalogueService"));
                
 
                 // Other Services                

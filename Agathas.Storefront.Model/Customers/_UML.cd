@@ -11,7 +11,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAECAGgAACCAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAQDAAACCAAAAAAAAAAAQAAAAAAAAEAAQAAAQAAAA=</HashCode>
       <FileName>Customers\Customer.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -22,14 +22,14 @@
   <Class Name="Agathas.Storefront.Model.Customers.DeliveryAddress">
     <Position X="6.75" Y="1" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAECAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAACAAAAgAAAAAAQAAAAAAAACAAAAAAQAAAA=</HashCode>
       <FileName>Customers\DeliveryAddress.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Agathas.Storefront.Model.Address">
-    <Position X="6.75" Y="3.5" Width="2.5" />
+    <Position X="6.75" Y="4.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAAIAAAAAAAAAAIAAAABAAAABAAQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAABAAQAAA=</HashCode>
       <FileName>Address.cs</FileName>
     </TypeIdentifier>
   </Class>

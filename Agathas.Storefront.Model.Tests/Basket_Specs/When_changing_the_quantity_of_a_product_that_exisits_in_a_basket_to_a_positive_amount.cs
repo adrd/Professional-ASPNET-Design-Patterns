@@ -9,7 +9,7 @@ using NUnit.Framework;
 namespace Agathas.Storefront.Model.Tests.Basket_Specs
 {
     [TestFixture]
-    public class When_changing_the_quantity_of_a_product_that_exisits_in_a_basket_to_a_positive_amount
+    public class When_changing_the_quantity_of_a_product_that_exists_in_a_basket_to_a_positive_amount
     {
         private Basket.Basket _basket;
         private Product _product;

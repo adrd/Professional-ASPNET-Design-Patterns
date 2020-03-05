@@ -19,7 +19,7 @@
 
     <many-to-one access="field.camelcase-underscore"  name="Colour"
                       class="ProductColour"
-                      column="ColourId"
+                      column="ColorId"
                       not-null="true"
                       lazy="false"
 					  />

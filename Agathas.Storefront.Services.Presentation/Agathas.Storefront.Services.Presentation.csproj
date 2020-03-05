@@ -63,7 +63,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mapping\CategoryDto.hbm.xml" />
+    <EmbeddedResource Include="Mapping\CategoryDto.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mapping\FeaturedProductDto.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -72,7 +74,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mapping\ProductSizeOptionDto.hbm.xml" />
     <EmbeddedResource Include="Mapping\ProductDetailDto.hbm.xml" />
-    <Content Include="Mapping\ProductSummaryDto.hbm.xml" />
+    <None Include="Mapping\ProductSummaryDto.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

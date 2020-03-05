@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Model.Categories.Category" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Categories\Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.Brand" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Brand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.Product" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <AssociationLine Name="Size" Type="Agathas.Storefront.Model.Products.ProductSize">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYCAgEAAAAAAAAQAAAAAAAAAAAAAABIBCAA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Size" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductColour" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\ProductColour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductSize" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\ProductSize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductTitle" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="2.75" />
+    <AssociationLine Name="Brand" Type="Agathas.Storefront.Model.Products.Brand">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.23" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Category" Type="Agathas.Storefront.Model.Categories.Category">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.806" Y="0.706" Height="0.18" Width="1.322" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Products" Type="Agathas.Storefront.Model.Products.Product">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.36" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAQCABAABAAAAAAQAAAAAgAAAAIAAABABCAQ=</HashCode>
+      <FileName>Products\ProductTitle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Brand" />
+      <Property Name="Category" />
+      <Property Name="Colour" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductIsMadeByBrandSpecification">
+    <Position X="4.5" Y="11.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Products\ProductIsMadeByBrandSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductIsInSizeSpecification">
+    <Position X="0.5" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAACAAAAA=</HashCode>
+      <FileName>Products\ProductIsInSizeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductIsInColourSpecification">
+    <Position X="4.5" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Products\ProductIsInColourSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.ProductIsInCategorySpecification">
+    <Position X="0.5" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Products\ProductIsInCategorySpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agathas.Storefront.Model.Categories.ICategoryRepository">
+    <Position X="7.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Categories\ICategoryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Products.IProductAttribute">
+    <Position X="0.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IProductAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Products.IProductRepository">
+    <Position X="4" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Products.IProductTitleRepository">
+    <Position X="0.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IProductTitleRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

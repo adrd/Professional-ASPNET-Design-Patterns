@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Infrastructure.Specification.AndSpecification&lt;T&gt;">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgEAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Specification\AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Specification.CompositeSpecification&lt;T&gt;">
+    <Position X="3.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAACAAAAA=</HashCode>
+      <FileName>Specification\CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Specification.NotSpecification&lt;T&gt;">
+    <Position X="3.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Specification\NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Specification.OrSpecification&lt;T&gt;">
+    <Position X="6.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgEAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Specification\OrSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Specification.PredicateBuilder">
+    <Position X="8" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAA=</HashCode>
+      <FileName>Specification\PredicateBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agathas.Storefront.Infrastructure.Specification.ISpecification&lt;T&gt;">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Specification\ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

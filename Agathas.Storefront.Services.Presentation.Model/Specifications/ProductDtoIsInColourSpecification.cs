@@ -17,7 +17,7 @@ namespace Agathas.Storefront.Services.Presentation.Model.Specifications
         public override bool IsSatisfiedBy(ProductDto product)
         {
             if (_colourIds.Count() > 0)
-                return _colourIds.Any(c => c == product.ColourId);
+                return _colourIds.Any(c => c == product.ColorId);
             
             return true;
         }
@@ -27,7 +27,7 @@ namespace Agathas.Storefront.Services.Presentation.Model.Specifications
             if (_colourIds.Count() == 0)
                 return p => true;
             else
-                return p => _colourIds.Contains(p.ColourId);
+                return p => _colourIds.Contains(p.ColorId);
         }
     }
 }

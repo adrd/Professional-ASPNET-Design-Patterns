@@ -17,7 +17,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AEICAAAABICACAAACAAABACAADAAAAAAAMgBAAAAAAQ=</HashCode>
+      <HashCode>AEIAAAAABICACAAACAAABACAADAAAAAAAMABAAAAAAQ=</HashCode>
       <FileName>Basket\Basket.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -36,7 +36,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAACAgAAAACAgCAAgAAAAAAAgBAAAAAAAIAAAIAQAAA=</HashCode>
+      <HashCode>AAACAAAAAACAgCABgAAAAAAAABAAAAAAAIAAgIAQAAA=</HashCode>
       <FileName>Basket\BasketItem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -46,7 +46,7 @@
   <Class Name="Agathas.Storefront.Model.Products.Product">
     <Position X="7.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAYAAgEAAAAAAAAQAAAAAAAAAAAAAABIBCAA=</HashCode>
+      <HashCode>AAAAAAAAAYCAgEAAAAAAAAQAAAAAAAAAAAAAABIBCAA=</HashCode>
       <FileName>Products\Product.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -55,11 +55,11 @@
     <Position X="3" Y="5" Width="2" />
     <AssociationLine Name="ShippingService" Type="Agathas.Storefront.Model.Shipping.ShippingService">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.089" Y="0.154" />
+        <Position X="0.289" Y="0.154" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AQACAAAAACAAABAAAAAAABAAAAgAAAAAAEAAAEAAAAA=</HashCode>
+      <HashCode>AQAAAAAAACCAABAAAAAAABAAAAgAAAAAAEAAAEAAAAA=</HashCode>
       <FileName>Shipping\DeliveryOption.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -68,14 +68,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Agathas.Storefront.Model.Shipping.ShippingService">
-    <Position X="6" Y="5" Width="2" />
+    <Position X="6.75" Y="5" Width="2" />
     <AssociationLine Name="Courier" Type="Agathas.Storefront.Model.Shipping.Courier">
       <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
-        <Position X="0.037" Y="0.216" Height="0.182" Width="0.808" />
+        <Position X="0.337" Y="0.216" Height="0.182" Width="0.808" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAACgAAAFAAAgAAAAAAAAAAAAAAgAAAAgAAA=</HashCode>
       <FileName>Shipping\ShippingService.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -83,13 +83,13 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Agathas.Storefront.Model.Shipping.Courier">
-    <Position X="9" Y="5" Width="2" />
+    <Position X="10.25" Y="5" Width="2" />
     <TypeIdentifier>
-      <HashCode>gAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAIAAAAACAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Shipping\Courier.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Agathas.Storefront.Model.Shipping.IDeliveryOption" Collapsed="true">
+  <Interface Name="Agathas.Storefront.Model.Shipping.IDeliveryOption">
     <Position X="0.75" Y="5.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAABAAAAAAABAAAAgAAAAAAAAAAEAAAAA=</HashCode>

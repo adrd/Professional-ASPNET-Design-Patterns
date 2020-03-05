@@ -27,9 +27,9 @@
     <% using (Html.BeginForm()) { %>
         <div>           
                 <p>
-                    <label for="username">Username:</label><br />
-                    <%= Html.TextBox("username") %>
-                    <%= Html.ValidationMessage("username") %>
+                    <label for="email">Username:</label><br />
+                    <%= Html.TextBox("email") %>
+                    <%= Html.ValidationMessage("email") %>
                 </p>
                 <p>
                     <label for="password">Password:</label><br />

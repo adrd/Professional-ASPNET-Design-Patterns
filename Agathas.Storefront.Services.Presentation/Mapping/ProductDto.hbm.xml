@@ -24,7 +24,7 @@
     <property name="SizeId" ></property>
     <property name="SizeName" ></property>
 
-    <property name="ColourId" ></property>
+    <property name="ColorId" ></property>
     <property name="ColourName" ></property>
     
   </class>

@@ -24,7 +24,7 @@ namespace Agathas.Storefront.Services.Presentation.Model
         public int SizeId { get; set; }
         public string SizeName { get; set; }
 
-        public int ColourId { get; set; }
+        public int ColorId { get; set; }
         public string ColourName { get; set; }
     }
 }

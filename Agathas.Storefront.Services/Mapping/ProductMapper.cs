@@ -65,7 +65,7 @@ namespace Agathas.Storefront.Services.Mapping
             var coloursMatching =
                 new RefinementGroup()
                 {
-                    Refinements = productsFound.Select(p => new Refinement() { Id = p.ColourId, Name = p.ColourName }).Distinct(r => r.Id),
+                    Refinements = productsFound.Select(p => new Refinement() { Id = p.ColorId, Name = p.ColourName }).Distinct(r => r.Id),
                     GroupId = (int)RefinementGroupings.colour,
                     Name = RefinementGroupings.colour.ToString()
                 };

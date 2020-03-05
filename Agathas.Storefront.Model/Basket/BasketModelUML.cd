@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Model.Basket.Basket" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <AssociationLine Name="_items" Type="Agathas.Storefront.Model.Basket.BasketItem" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.562" />
+        <Point X="4.92" Y="1.562" />
+        <Point X="4.92" Y="1.562" />
+        <Point X="5.25" Y="1.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.668" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEIAAAAABICACAAACAAABACAADAAAAAAAMABAAAAAAQ=</HashCode>
+      <FileName>Basket\Basket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_items" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.191" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Basket.BasketBusinessRules">
+    <Position X="0.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basket\BasketBusinessRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Basket.BasketItem">
+    <Position X="5.25" Y="0.5" Width="2.5" />
+    <AssociationLine Name="Product" Type="Agathas.Storefront.Model.Products.Product" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="2.312" />
+        <Point X="8.5" Y="2.312" />
+        <Point X="8.5" Y="2.312" />
+        <Point X="9.25" Y="2.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.333" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAgCABgAAAAAAAABAAAAAAAIAAgIAQAAA=</HashCode>
+      <FileName>Basket\BasketItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Basket.BasketItemBusinessRules">
+    <Position X="5.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basket\BasketItemBusinessRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Basket.BasketItemFactory">
+    <Position X="5.25" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basket\BasketItemFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.Product" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYCAgEAAAAAAAAQAAAAAAAAAAAAAABIBCAA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Shipping.Courier">
+    <Position X="10.25" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAACAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shipping\Courier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Shipping.DeliveryOption" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.25" Width="3.25" />
+    <AssociationLine Name="ShippingService" Type="Agathas.Storefront.Model.Shipping.ShippingService" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="10.25" />
+        <Point X="5.75" Y="10.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.222" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACCAABAAAAAAABAAAAgAAAAAAEAAAEAAAAA=</HashCode>
+      <FileName>Shipping\DeliveryOption.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShippingService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Shipping.NullDeliveryOption" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAABAAAAgAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Shipping\NullDeliveryOption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Shipping.ShippingService">
+    <Position X="5.75" Y="8.25" Width="3" />
+    <AssociationLine Name="Courier" Type="Agathas.Storefront.Model.Shipping.Courier" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.125" />
+        <Point X="10.25" Y="10.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.222" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACgAAAFAAAgAAAAAAAAAAAAAAgAAAAgAAA=</HashCode>
+      <FileName>Shipping\ShippingService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Courier" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Agathas.Storefront.Model.Basket.IBasketRepository">
+    <Position X="0.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basket\IBasketRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Shipping.IDeliveryOption">
+    <Position X="4.25" Y="11.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAABAAAAgAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Shipping\IDeliveryOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Shipping.IDeliveryOptionRepository">
+    <Position X="7.5" Y="11.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shipping\IDeliveryOptionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

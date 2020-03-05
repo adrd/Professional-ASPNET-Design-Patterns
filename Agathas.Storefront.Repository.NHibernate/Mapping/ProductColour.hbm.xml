@@ -3,9 +3,9 @@
     namespace="Agathas.Storefront.Model.Products"
         assembly="Agathas.Storefront.Model">
 
-  <class name="ProductColour" table="Colours" lazy="false" >
+  <class name="ProductColour" table="Colors" lazy="false" >
 
-    <id  name="Id" column="ColourId"  type="int" unsaved-value="0">
+    <id  name="Id" column="ColorId"  type="int" unsaved-value="0">
       <generator class="native" />
     </id>
 

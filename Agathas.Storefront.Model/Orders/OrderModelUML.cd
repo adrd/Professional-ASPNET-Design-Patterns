@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Model.Orders.CannotAmendOrderException">
+    <Position X="5" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\CannotAmendOrderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.Order" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="2.75" />
+    <AssociationLine Name="_items" Type="Agathas.Storefront.Model.Orders.OrderItem">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.609" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_state" Type="Agathas.Storefront.Model.Orders.States.IOrderState">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="0.36" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ShippingService" Type="Agathas.Storefront.Model.Shipping.ShippingService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.312" Y="5.633" />
+        <Point X="5.312" Y="8.219" />
+        <Point X="3.5" Y="8.219" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.203" Y="0.088" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Payment" Type="Agathas.Storefront.Model.Orders.Payment">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.484" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Customer" Type="Agathas.Storefront.Model.Customers.Customer">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.36" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DeliveryAddress" Type="Agathas.Storefront.Model.Address">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.333" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAEAAAAEAASACAAEAKKICIAAgBgAwgQAAAAAIAAgAAQ=</HashCode>
+      <FileName>Orders\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_state" />
+      <Property Name="ShippingService" />
+      <Property Name="Payment" />
+      <Property Name="Customer" />
+      <Property Name="DeliveryAddress" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_items" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.OrderAlreadyPaidForException">
+    <Position X="8" Y="17.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\OrderAlreadyPaidForException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.OrderBusinessRules">
+    <Position X="11.5" Y="9.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAgAAAQBAAwAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\OrderBusinessRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.OrderItem">
+    <Position X="9" Y="0.5" Width="2.5" />
+    <AssociationLine Name="Product" Type="Agathas.Storefront.Model.Products.Product">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.609" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgECAAACAQCAACABAAAAAAAAAAAAAAAAAIAAgAAQAAA=</HashCode>
+      <FileName>Orders\OrderItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.OrderItemBusinessRules">
+    <Position X="13.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAACAIAAA=</HashCode>
+      <FileName>Orders\OrderItemBusinessRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.OrderItemFactory">
+    <Position X="13.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\OrderItemFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.Payment">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACCAAAAAACABAACAAAAAgAgAAABAAAAAAAA=</HashCode>
+      <FileName>Orders\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.PaymentAmountDoesNotEqualOrderTotalException">
+    <Position X="0.5" Y="17.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\PaymentAmountDoesNotEqualOrderTotalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.PaymentBusinessRules">
+    <Position X="0.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\PaymentBusinessRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.PaymentFactory">
+    <Position X="0.5" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\PaymentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.Events.OrderSubmittedEvent" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="11.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\Events\OrderSubmittedEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.States.OpenOrderState">
+    <Position X="6.25" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Orders\States\OpenOrderState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.States.OrderState">
+    <Position X="5" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Orders\States\OrderState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.States.OrderStates">
+    <Position X="8.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\States\OrderStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Orders.States.SubmittedOrderState">
+    <Position X="3.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Orders\States\SubmittedOrderState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Customers.Customer">
+    <Position X="8.75" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAQDAAACCAAAAAAAAAAAQAAAAAAAAEAAQAAAQAAAA=</HashCode>
+      <FileName>Customers\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Products.Product">
+    <Position X="13.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYCAgEAAAAAAAAQAAAAAAAAAAAAAABIBCAA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Address">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAABAAQAAA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Model.Shipping.ShippingService">
+    <Position X="0.5" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACgAAAFAAAgAAAAAAAAAAAAAAgAAAAgAAA=</HashCode>
+      <FileName>Shipping\ShippingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agathas.Storefront.Model.Orders.IOrderRepository">
+    <Position X="0.5" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agathas.Storefront.Model.Orders.States.IOrderState">
+    <Position X="5" Y="9" Width="1.75" />
+    <AssociationLine Name="Status" Type="Agathas.Storefront.Model.Orders.States.OrderStatus">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.104" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Orders\States\IOrderState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="Agathas.Storefront.Model.Orders.States.OrderStatus">
+    <Position X="9.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\States\OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

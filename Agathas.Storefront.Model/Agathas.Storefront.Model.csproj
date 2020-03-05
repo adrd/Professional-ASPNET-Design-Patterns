@@ -139,10 +139,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Basket\BasketModelUML.cd" />
     <None Include="Basket\_UML.cd" />
+    <None Include="Customers\CustomerModelUML.cd" />
     <None Include="Customers\_UML.cd" />
+    <None Include="Orders\OrderModelUML.cd" />
     <None Include="Orders\States\_UML.cd" />
     <None Include="Orders\_UML.cd" />
+    <None Include="Products\ProductCatalogModelUML.cd" />
     <None Include="Products\_UML.cd" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Infrastructure.Email.EmailServiceFactory">
+    <Position X="5.75" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Email\EmailServiceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Email.SMTPService">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Email\SMTPService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agathas.Storefront.Infrastructure.Email.TextLoggingEmailService">
+    <Position X="2.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Email\TextLoggingEmailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Agathas.Storefront.Infrastructure.Email.IEmailService">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Email\IEmailService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

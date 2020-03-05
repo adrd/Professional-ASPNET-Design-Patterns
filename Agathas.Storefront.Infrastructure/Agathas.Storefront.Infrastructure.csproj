@@ -147,8 +147,18 @@
     <Compile Include="Validation\Check.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Authentication\_UML.cd" />
+    <None Include="Specification\_UML.cd" />
+    <None Include="CommandHandler\_UML.cd" />
+    <None Include="Configuration\_UML.cd" />
+    <None Include="CookieStorage\_UML.cd" />
+    <None Include="Domain\Events\_UML.cd" />
+    <None Include="Domain\_UML.cd" />
+    <None Include="Email\_UML.cd" />
+    <None Include="Logging\_UML.cd" />
     <None Include="Payments\_UML.cd" />
     <None Include="Querying\QueryObjectPattern.cd" />
+    <None Include="UnitOfWork\_UML.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
